@@ -1,7 +1,7 @@
 name: Daily Economic Report
 on:
   schedule:
-    - cron: '0 22 * * 0-5' # 한국시간 아침 7시 (월-토)
+    - cron: cron: '30 21 * * 0-5' # 한국시간 아침 7시 (월-토)
   workflow_dispatch: # 수동 실행 버튼
 jobs:
   run-report:
